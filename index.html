@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+K9<!DOCTYPE html>
 <html lang="hi">
 
 <head><title>vikashHelp</title><link rel="manifest" href="/manifest.json">
@@ -1616,8 +1616,26 @@ block:"center"
 
 loadStates();
 
+
+
 createServices();
 
+
+/* =================================
+   SERVICE WORKER
+================================= */
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/sw.js")
+            .then(() => {
+                console.log("vikashHelp Service Worker registered");
+            })
+            .catch(error => {
+                console.log("Service Worker error:", error);
+            });
+    });
+    }
 </script>
 
 </body>
