@@ -1,0 +1,10 @@
+{
+  "name": "vikashHelp",
+  "short_name": "vikashHelp",
+  "description": "पूरे भारत की जरूरी सेवाएँ — एक ही जगह",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#0d6efd",
+  "orientation": "portrait",
+  "lang": "hi"
