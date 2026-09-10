@@ -9,7 +9,7 @@
   "orientation": "portrait",
   "lang": "hi"
 
-  <link rel="manifest" href{
+  <link rel="manifest" href="manifest.json">
   "name": "vikashHelp",
   "short_name": "vikashHelp",
   "description": "पूरे भारत की जरूरी सेवाएँ — एक ही जगह",
